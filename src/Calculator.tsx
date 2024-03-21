@@ -28,9 +28,8 @@ const Calculator = () => {
       <div className="flex items-center justify-end h-70 w-350 rounded-20 bg-screen text-screenText font-body font-normal text-customSize">
         {input}
       </div>
-      <div className="buttonbox">
-        <button></button>
-
+      {/* buttonbox */}
+      <div className="grid grid-cols-5 grid-rows-4 font-body">
         <button onClick={() => handleButtonClick("1")}>1</button>
         <button onClick={() => handleButtonClick("2")}>2</button>
         <button onClick={() => handleButtonClick("3")}>3</button>
